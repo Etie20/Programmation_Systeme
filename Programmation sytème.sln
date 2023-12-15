@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurant", "Restaurant\Restaurant.csproj", "{6A3D6926-0BE6-4F88-848D-F12D2139306A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cuisine", "Cuisine\Cuisine.csproj", "{6FDBE752-2FAC-4F3F-9814-3AA59D307C3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A3D6926-0BE6-4F88-848D-F12D2139306A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A3D6926-0BE6-4F88-848D-F12D2139306A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A3D6926-0BE6-4F88-848D-F12D2139306A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A3D6926-0BE6-4F88-848D-F12D2139306A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FDBE752-2FAC-4F3F-9814-3AA59D307C3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FDBE752-2FAC-4F3F-9814-3AA59D307C3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FDBE752-2FAC-4F3F-9814-3AA59D307C3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FDBE752-2FAC-4F3F-9814-3AA59D307C3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
