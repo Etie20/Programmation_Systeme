@@ -41,32 +41,25 @@ namespace SimulationKitchen.Model
             new Thread(() =>
             {
 
-                // Establish the local endpoint for the socket.  
-                // Dns.GetHostName returns the name of the   
-                // host running the application.  
+                
                 IPHostEntry ipHostInfo = Dns.GetHostEntry(Dns.GetHostName());
                 IPAddress ipAddress = IPAddress.Parse(this.IpAddress);
                 Console.WriteLine(ipAddress.ToString());
                 IPEndPoint localEndPoint = new IPEndPoint(ipAddress, this.Port);
 
-                // Create a TCP/IP socket.  
+                  
                 Socket listener = new Socket(ipAddress.AddressFamily,
                     SocketType.Stream, ProtocolType.Tcp);
-
-                // Bind the socket to the local endpoint and   
-                // listen for incoming connections.  
+ 
                 try
                 {
                     listener.Bind(localEndPoint);
                     listener.Listen(10);
 
-                    // Start listening for connections.  
                     while (true)
                     {
-                        // Set the event to nonsignaled state.  
                         LogWriter.GetInstance().Write("Kitchen Listenning on " + listener.LocalEndPoint.ToString() + ", waiting for connection ...");
 
-                        // Program is suspended while waiting for an incoming connection.  
                         this.RoomHandler = listener.Accept();
 
                         this.NewClient();
@@ -96,7 +89,7 @@ namespace SimulationKitchen.Model
                     this.Datas += Encoding.UTF8.GetString(bytes, 0, bytesRec);
                     if (this.Datas.IndexOf("<EOF>") > -1)
                     {
-                        this.ProcessRecieveData(this.Datas);
+                        this.ProcessReceiveData(this.Datas);
                         this.Datas = "";
 
                     }
@@ -106,7 +99,7 @@ namespace SimulationKitchen.Model
             }).Start();
         }
 
-        private void ProcessRecieveData(string data)
+        private void ProcessReceiveData(string data)
         {
             data = data.Substring(0, data.Length - 5);
             if (data == "<MENU>")
@@ -123,13 +116,7 @@ namespace SimulationKitchen.Model
                 this.OnNewOrderArrive(OrderEvent);
             }
         }
-        
-        /// <summary>
-        /// Send an object in the socket
-        /// </summary>
-        /// <param name="server"></param>
-        /// <param name="port"></param>
-        /// <returns></returns>
+
         public bool Send(string msg)
         {
             msg += "<EOF>";

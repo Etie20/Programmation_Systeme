@@ -58,10 +58,7 @@ namespace SimulationKitchen.Model
             this.IsAvailable = true;
         }
 
-        /// <summary>
-        /// Prepare a step
-        /// </summary>
-        /// <param name="step">The step to prepare</param>
+     
         public void PrepareStep(Step step, Dish dish = null)
         {
             LogWriter.GetInstance().Write("Cooker " +this.Id+" start step "+step.Order+" : " + step.Description);
@@ -80,7 +77,7 @@ namespace SimulationKitchen.Model
                 {
                     if (dish.Recipe.BakeTime == 0)
                     {
-                        //MoveTo(272, 272);
+                        MoveTo(272, 272);
                         dish.Ready = true;
                         this.OnOrderReady(EventArgs.Empty);
 

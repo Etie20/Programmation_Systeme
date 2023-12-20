@@ -19,21 +19,13 @@ namespace MCI_Common.Behaviour
             posY = y;
         }
 
-        /// <summary>
-        /// Set position with x and y coordinates
-        /// </summary>
-        /// <param name="x"></param>
-        /// <param name="y"></param>
         public void SetPosition(int x, int y)
         {
             posX = x;
             posY = y;
         }
 
-        /// <summary>
-        /// Set position with Position object
-        /// </summary>
-        /// <param name="pos"></param>
+
         public void SetPosition(Position pos)
         {
             posX = pos.posX;

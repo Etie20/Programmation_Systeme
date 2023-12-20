@@ -71,6 +71,7 @@ namespace SimulationKitchen.Model
             {
                 OrderEventArgs order = (OrderEventArgs)e;
                 LogWriter.GetInstance().Write("Starting prepare order n° " + order.receiveOrder.Id);
+                Console.WriteLine("Starting prepare order n° " + order.receiveOrder.Id);
                 foreach (var item in order.receiveOrder.Dishes)
                 {
                     Console.WriteLine(item.Recipe.Name);
@@ -79,14 +80,17 @@ namespace SimulationKitchen.Model
             }   
         }
 
-        /// <summary>
-        /// Prepare a recipe
-        /// </summary>
-        /// <param name="recipe">The recipe to prepare</param>
+      
         private void PrepareDish(Dish dish)
         {
+        
             foreach (var step in dish.Recipe.Steps)
             {
+                Console.WriteLine("prepare a dish please");
+                Console.WriteLine(step);
+                Console.WriteLine(step.Order);
+                Console.WriteLine("final");
+                Console.WriteLine(dish.Recipe.Steps.Count);
                 Cooker cooker;  
                 { cooker = this.ElectCooker(); } while (cooker == null) ;
 

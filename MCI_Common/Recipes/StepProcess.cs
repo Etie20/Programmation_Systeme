@@ -12,29 +12,19 @@ namespace MCI_Common.Recipes
 {
     public class StepProcess
     {
-        /// <summary>
-        /// Table mapped for build request SQL
-        /// </summary>
+
         public TB_Step MapTable { get; private set; }
 
-        /// <summary>
-        /// BDD connection object
-        /// </summary>
+
         public DAO Bdd { get; private set; }
 
-        /// <summary>
-        /// SQL request
-        /// </summary>
+
         public string Request { get; private set; }
 
-        /// <summary>
-        /// DataSet to get request results
-        /// </summary>
+
         public DataSet Datas { get; private set; }
 
-        /// <summary>
-        /// Create a device process class
-        /// </summary>
+
         public StepProcess()
         {
             this.MapTable = new TB_Step();
@@ -42,11 +32,6 @@ namespace MCI_Common.Recipes
             this.Bdd = DAO.getInstance();
         }
 
-        /// <summary>
-        /// Build a Step from datarow
-        /// </summary>
-        /// <param name="row">Datarow from dataset</param>
-        /// <returns>a step</returns>
         private Step CreateStep(DataRow row)
         {
             Step step = new Step();
@@ -60,11 +45,7 @@ namespace MCI_Common.Recipes
             return step;
         }
 
-        /// <summary>
-        /// Get a specific step
-        /// </summary>
-        /// <param name="id">id of the step to get</param>
-        /// <returns>A specific step</returns>
+
         public Step GetOne(int id)
         {
             this.Datas.Clear();
@@ -78,11 +59,7 @@ namespace MCI_Common.Recipes
             return result;
         }
 
-        /// <summary>
-        /// Get a the steps list for a recipe
-        /// </summary>
-        /// <param name="id">id of the recipe</param>
-        /// <returns>A recipe steps list</returns>
+
         public List<Step> ListAllByRecipe(int id)
         {
             this.Datas.Clear();
