@@ -1,0 +1,447 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Ravi\\Downloads\\Programmation_Systeme-beta\\Programmation_Systeme-beta\\UnitTestProject\\UnitTestProject.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Ravi\\Downloads\\Programmation_Systeme-beta\\Programmation_Systeme-beta\\MCI_Common\\MCI_Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ravi\\Downloads\\Programmation_Systeme-beta\\Programmation_Systeme-beta\\MCI_Common\\MCI_Common.csproj",
+        "projectName": "MCI_Common",
+        "projectPath": "C:\\Users\\Ravi\\Downloads\\Programmation_Systeme-beta\\Programmation_Systeme-beta\\MCI_Common\\MCI_Common.csproj",
+        "packagesPath": "C:\\Users\\Ravi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ravi\\Downloads\\Programmation_Systeme-beta\\Programmation_Systeme-beta\\MCI_Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ravi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MonoGame.Content.Builder.Task": {
+              "target": "Package",
+              "version": "[3.8.1.303, )"
+            },
+            "MonoGame.Framework.DesktopGL": {
+              "target": "Package",
+              "version": "[3.8.1.303, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ravi\\Downloads\\Programmation_Systeme-beta\\Programmation_Systeme-beta\\Room\\Room.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ravi\\Downloads\\Programmation_Systeme-beta\\Programmation_Systeme-beta\\Room\\Room.csproj",
+        "projectName": "Room",
+        "projectPath": "C:\\Users\\Ravi\\Downloads\\Programmation_Systeme-beta\\Programmation_Systeme-beta\\Room\\Room.csproj",
+        "packagesPath": "C:\\Users\\Ravi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ravi\\Downloads\\Programmation_Systeme-beta\\Programmation_Systeme-beta\\Room\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ravi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Ravi\\Downloads\\Programmation_Systeme-beta\\Programmation_Systeme-beta\\MCI_Common\\MCI_Common.csproj": {
+                "projectPath": "C:\\Users\\Ravi\\Downloads\\Programmation_Systeme-beta\\Programmation_Systeme-beta\\MCI_Common\\MCI_Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MonoGame.Content.Builder.Task": {
+              "target": "Package",
+              "version": "[3.8.1.303, )"
+            },
+            "MonoGame.Framework.DesktopGL": {
+              "target": "Package",
+              "version": "[3.8.1.303, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ravi\\Downloads\\Programmation_Systeme-beta\\Programmation_Systeme-beta\\SimulationCuisine\\SimulationCuisine.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ravi\\Downloads\\Programmation_Systeme-beta\\Programmation_Systeme-beta\\SimulationCuisine\\SimulationCuisine.csproj",
+        "projectName": "SimulationCuisine",
+        "projectPath": "C:\\Users\\Ravi\\Downloads\\Programmation_Systeme-beta\\Programmation_Systeme-beta\\SimulationCuisine\\SimulationCuisine.csproj",
+        "packagesPath": "C:\\Users\\Ravi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ravi\\Downloads\\Programmation_Systeme-beta\\Programmation_Systeme-beta\\SimulationCuisine\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ravi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Ravi\\Downloads\\Programmation_Systeme-beta\\Programmation_Systeme-beta\\MCI_Common\\MCI_Common.csproj": {
+                "projectPath": "C:\\Users\\Ravi\\Downloads\\Programmation_Systeme-beta\\Programmation_Systeme-beta\\MCI_Common\\MCI_Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MonoGame.Content.Builder.Task": {
+              "target": "Package",
+              "version": "[3.8.1.303, )"
+            },
+            "MonoGame.Framework.DesktopGL": {
+              "target": "Package",
+              "version": "[3.8.1.303, )"
+            },
+            "TiledSharp": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ravi\\Downloads\\Programmation_Systeme-beta\\Programmation_Systeme-beta\\SimulationRestaurant\\SimulationRestaurant.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ravi\\Downloads\\Programmation_Systeme-beta\\Programmation_Systeme-beta\\SimulationRestaurant\\SimulationRestaurant.csproj",
+        "projectName": "SimulationRestaurant",
+        "projectPath": "C:\\Users\\Ravi\\Downloads\\Programmation_Systeme-beta\\Programmation_Systeme-beta\\SimulationRestaurant\\SimulationRestaurant.csproj",
+        "packagesPath": "C:\\Users\\Ravi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ravi\\Downloads\\Programmation_Systeme-beta\\Programmation_Systeme-beta\\SimulationRestaurant\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ravi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Ravi\\Downloads\\Programmation_Systeme-beta\\Programmation_Systeme-beta\\MCI_Common\\MCI_Common.csproj": {
+                "projectPath": "C:\\Users\\Ravi\\Downloads\\Programmation_Systeme-beta\\Programmation_Systeme-beta\\MCI_Common\\MCI_Common.csproj"
+              },
+              "C:\\Users\\Ravi\\Downloads\\Programmation_Systeme-beta\\Programmation_Systeme-beta\\Room\\Room.csproj": {
+                "projectPath": "C:\\Users\\Ravi\\Downloads\\Programmation_Systeme-beta\\Programmation_Systeme-beta\\Room\\Room.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MonoGame.Content.Builder.Task": {
+              "target": "Package",
+              "version": "[3.8.1.303, )"
+            },
+            "MonoGame.Framework.DesktopGL": {
+              "target": "Package",
+              "version": "[3.8.1.303, )"
+            },
+            "TiledSharp": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ravi\\Downloads\\Programmation_Systeme-beta\\Programmation_Systeme-beta\\UnitTestProject\\UnitTestProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ravi\\Downloads\\Programmation_Systeme-beta\\Programmation_Systeme-beta\\UnitTestProject\\UnitTestProject.csproj",
+        "projectName": "UnitTestProject",
+        "projectPath": "C:\\Users\\Ravi\\Downloads\\Programmation_Systeme-beta\\Programmation_Systeme-beta\\UnitTestProject\\UnitTestProject.csproj",
+        "packagesPath": "C:\\Users\\Ravi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ravi\\Downloads\\Programmation_Systeme-beta\\Programmation_Systeme-beta\\UnitTestProject\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ravi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Ravi\\Downloads\\Programmation_Systeme-beta\\Programmation_Systeme-beta\\SimulationCuisine\\SimulationCuisine.csproj": {
+                "projectPath": "C:\\Users\\Ravi\\Downloads\\Programmation_Systeme-beta\\Programmation_Systeme-beta\\SimulationCuisine\\SimulationCuisine.csproj"
+              },
+              "C:\\Users\\Ravi\\Downloads\\Programmation_Systeme-beta\\Programmation_Systeme-beta\\SimulationRestaurant\\SimulationRestaurant.csproj": {
+                "projectPath": "C:\\Users\\Ravi\\Downloads\\Programmation_Systeme-beta\\Programmation_Systeme-beta\\SimulationRestaurant\\SimulationRestaurant.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[3.0.4, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[3.0.4, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.6.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
