@@ -78,7 +78,7 @@ namespace Room.Model.Restaurant
             int y = 0;
             foreach (var table in ListTables)
             {
-                table.TableLocation.posX = 48+i;
+                table.TableLocation.posX = 100+i;
                 table.TableLocation.posY = 64+y;
                 i += 64;
                 if (i == 384)

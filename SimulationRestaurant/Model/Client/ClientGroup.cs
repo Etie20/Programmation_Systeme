@@ -27,25 +27,16 @@ namespace Room.Model.Client
         public delegate void ReadyToSitEventHandler(object source, OrderEventArgs args);
 
         // TODO ajouter les envent handler au staff + abonnement
-
-        /// <summary>
-        /// Id of the clients group
-        /// </summary>
+        
         public int Id { get; set; }
 
-        /// <summary>
-        /// List of clients in the group
-        /// </summary>
+
         public List<Client> ClientList { get; set; }
 
-        /// <summary>
-        /// Order of the group containing dishes for each client
-        /// </summary>
+
         public MCI_Common.Dishes.Order tableOrder { get; set; }
 
-        /// <summary>
-        /// Group's table
-        /// </summary>
+     
         public Table TableSit { get; set; }
 
         public RecipeType MealProgression = RecipeType.UNKNOWN;

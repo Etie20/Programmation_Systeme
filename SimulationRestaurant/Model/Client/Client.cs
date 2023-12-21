@@ -3,10 +3,7 @@ using Room.Model.Behaviour;
 using MCI_Common.Behaviour;
 using MCI_Common.Timer;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using SimulationRestaurant.Model;
 
 namespace Room.Model.Client
 {
@@ -30,6 +27,7 @@ namespace Room.Model.Client
                 OrderMethod = new OrderTwoStep();
 
             Console.WriteLine("Client created, order method: {0}", OrderMethod);
+            LogWriter.GetInstance().Write("Client created, order method: " + OrderMethod);
         }
         
       

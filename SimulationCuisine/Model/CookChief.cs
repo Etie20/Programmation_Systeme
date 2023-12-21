@@ -11,6 +11,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
+using MCI_Common.Behaviour;
 
 namespace SimulationKitchen.Model
 {
@@ -24,6 +25,7 @@ namespace SimulationKitchen.Model
         public List<Recipe> Menu { get; private set; }
 
         public List<Cooker> Cookers { get; set; }
+        public object ToolsToWash { get; set; }
 
         //public event EventHandler
 

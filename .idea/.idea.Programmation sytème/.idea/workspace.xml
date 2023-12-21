@@ -11,15 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be016521-5ae5-4cc5-88f6-b8c26d576a56" name="Changes" comment="second commit">
+      <change afterPath="$PROJECT_DIR$/MCI_Common/log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/ConfigurationTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/CookChiefTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/GroupTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/WasherTest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Programmation sytème/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Programmation sytème/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MCI_Common/Devices/DeviceProcess.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MCI_Common/Devices/DeviceProcess.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MCI_Common/Devices/TB_Device.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MCI_Common/Devices/TB_Device.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MCI_Common/Ingredients/IngredientProcess.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MCI_Common/Ingredients/IngredientProcess.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MCI_Common/Ingredients/TB_Ingredient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MCI_Common/Ingredients/TB_Ingredient.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MCI_Common/Recipes/Step.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MCI_Common/Recipes/Step.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MCI_Common/Tools/TB_Tool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MCI_Common/Tools/TB_Tool.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MCI_Common/Tools/Tool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MCI_Common/Tools/Tool.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MCI_Common/Tools/ToolProcess.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MCI_Common/Tools/ToolProcess.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MCI_Common/Communication/Global_Settings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MCI_Common/Communication/Global_Settings.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MCI_Common/bin/Debug/net6.0/MCI_Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MCI_Common/bin/Debug/net6.0/MCI_Common.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MCI_Common/bin/Debug/net6.0/MCI_Common.exe" beforeDir="false" afterPath="$PROJECT_DIR$/MCI_Common/bin/Debug/net6.0/MCI_Common.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MCI_Common/bin/Debug/net6.0/MCI_Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MCI_Common/bin/Debug/net6.0/MCI_Common.pdb" afterDir="false" />
@@ -31,6 +29,7 @@
       <change beforePath="$PROJECT_DIR$/MCI_Common/obj/Debug/net6.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/MCI_Common/obj/Debug/net6.0/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MCI_Common/obj/Debug/net6.0/ref/MCI_Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MCI_Common/obj/Debug/net6.0/ref/MCI_Common.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MCI_Common/obj/Debug/net6.0/refint/MCI_Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MCI_Common/obj/Debug/net6.0/refint/MCI_Common.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programmation sytème.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Programmation sytème.sln" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Room/bin/Debug/net6.0/MCI_Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Room/bin/Debug/net6.0/MCI_Common.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Room/bin/Debug/net6.0/MCI_Common.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Room/bin/Debug/net6.0/MCI_Common.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Room/bin/Debug/net6.0/MCI_Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Room/bin/Debug/net6.0/MCI_Common.pdb" afterDir="false" />
@@ -46,6 +45,7 @@
       <change beforePath="$PROJECT_DIR$/Room/obj/Debug/net6.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Room/obj/Debug/net6.0/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Room/obj/Debug/net6.0/ref/Room.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Room/obj/Debug/net6.0/ref/Room.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Room/obj/Debug/net6.0/refint/Room.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Room/obj/Debug/net6.0/refint/Room.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulationCuisine/Game1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationCuisine/Game1.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SimulationCuisine/Model/CookChief.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationCuisine/Model/CookChief.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SimulationCuisine/Model/Cooker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationCuisine/Model/Cooker.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SimulationCuisine/bin/Debug/net6.0/MCI_Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationCuisine/bin/Debug/net6.0/MCI_Common.dll" afterDir="false" />
@@ -63,6 +63,9 @@
       <change beforePath="$PROJECT_DIR$/SimulationCuisine/obj/Debug/net6.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationCuisine/obj/Debug/net6.0/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SimulationCuisine/obj/Debug/net6.0/ref/SimulationCuisine.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationCuisine/obj/Debug/net6.0/ref/SimulationCuisine.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SimulationCuisine/obj/Debug/net6.0/refint/SimulationCuisine.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationCuisine/obj/Debug/net6.0/refint/SimulationCuisine.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulationRestaurant/Model/Client/Client.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationRestaurant/Model/Client/Client.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulationRestaurant/Model/Client/ClientGroup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationRestaurant/Model/Client/ClientGroup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulationRestaurant/Model/Restaurant/Restaurant.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationRestaurant/Model/Restaurant/Restaurant.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SimulationRestaurant/bin/Debug/net6.0/MCI_Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationRestaurant/bin/Debug/net6.0/MCI_Common.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SimulationRestaurant/bin/Debug/net6.0/MCI_Common.exe" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationRestaurant/bin/Debug/net6.0/MCI_Common.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SimulationRestaurant/bin/Debug/net6.0/MCI_Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationRestaurant/bin/Debug/net6.0/MCI_Common.pdb" afterDir="false" />
@@ -113,27 +116,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;beta&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "beta",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\GENERAL STORES\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\GENERAL STORES\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\GENERAL STORES\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\GENERAL STORES\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache",
+      "C:\\Users\\GENERAL STORES\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache",
+      "C:\\Users\\GENERAL STORES\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Project.betaRestaurant">
     <configuration name="Cuisine" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -255,7 +259,7 @@
       <workItem from="1702983837094" duration="2225000" />
       <workItem from="1702986151090" duration="4804000" />
       <workItem from="1702991588339" duration="43880000" />
-      <workItem from="1703091370200" duration="7611000" />
+      <workItem from="1703091370200" duration="24284000" />
     </task>
     <task id="LOCAL-00001" summary="second commit">
       <option name="closed" value="true" />

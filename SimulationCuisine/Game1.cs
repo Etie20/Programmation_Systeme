@@ -9,9 +9,7 @@ using TiledSharp;
 
 namespace SimulationKitchen
 {
-    /// <summary>
-    /// This is the main type for your game.
-    /// </summary>
+    
     public class Game1 : Game
     {
 
@@ -52,7 +50,7 @@ namespace SimulationKitchen
             Content.RootDirectory = "Content";
             graphics.PreferredBackBufferWidth = WINDOW_WIDTH;
             graphics.PreferredBackBufferHeight = WINDOW_HEIGHT;
-
+            
             foreach (var cooker in Model.Cookers)
             {
                 cooker.MoveEvent += Update;
@@ -68,10 +66,8 @@ namespace SimulationKitchen
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-            /*posXWasher = 128;
-            posYWasher = 64;
             positionKitchenChief = new Vector2(32, 32);
-            positionWasher = new Vector2(posXWasher, posYWasher);*/
+            positionWasher = new Vector2(128, 64);
 
             base.Initialize();
         }
@@ -100,8 +96,6 @@ namespace SimulationKitchen
             textureKitchenChief = Content.Load<Texture2D>("KitchenChief");
             textureCooker = Content.Load<Texture2D>("Cooker");
             textureWasher = Content.Load<Texture2D>("Washer");
-            // Ajout d'une position aux sprites
-            //positionKitchenChief = new Vector2(0, 0);
 
 
 
@@ -161,8 +155,8 @@ namespace SimulationKitchen
                         spriteBatch.Draw(tileset, new Rectangle((int)x, (int)y, tileWidth, tileHeight), tilesetRec, Color.White); // On dessine la Tile
                         // on Draw les sprites des chara
 
-                        //spriteBatch.Draw(textureKitchenChief, positionKitchenChief, Color.White);
-                        //spriteBatch.Draw(textureWasher, positionWasher, Color.White);
+                        spriteBatch.Draw(textureKitchenChief, positionKitchenChief, Color.White);
+                        spriteBatch.Draw(textureWasher, positionWasher, Color.White);
 
                         foreach (var cooker in Model.Cookers)
                         {

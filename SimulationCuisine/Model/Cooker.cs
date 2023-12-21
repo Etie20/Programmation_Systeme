@@ -48,6 +48,8 @@ namespace SimulationKitchen.Model
      
         public void PrepareStep(Step step, Dish dish = null)
         {
+            MoveTo(new Position(80,100));
+            
             LogWriter.GetInstance().Write("Cooker " +this.Id+" start step "+step.Order+" : " + step.Description);
             Console.WriteLine("Cooker " +this.Id+" start step "+step.Order+" : " + step.Description);
             this.IsAvailable = false;
@@ -68,7 +70,7 @@ namespace SimulationKitchen.Model
                 {
                     if (dish.Recipe.BakeTime == 0)
                     {
-                        MoveTo(272, 272);
+                        MoveTo(new Position(100,100));
                         dish.Ready = true;
                         this.OnOrderReady(EventArgs.Empty);
 
