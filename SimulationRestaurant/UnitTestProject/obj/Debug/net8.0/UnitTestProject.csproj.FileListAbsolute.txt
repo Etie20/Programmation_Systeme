@@ -1,0 +1,6 @@
+C:\Users\Ravi\Downloads\Programmation_Systeme-beta\Programmation_Systeme-beta\UnitTestProject\bin\Debug\net8.0\CoverletSourceRootsMapping_UnitTestProject
+C:\Users\Ravi\Downloads\Programmation_Systeme-beta\Programmation_Systeme-beta\UnitTestProject\obj\Debug\net8.0\UnitTestProject.csproj.AssemblyReference.cache
+C:\Users\Ravi\Downloads\Programmation_Systeme-beta\Programmation_Systeme-beta\UnitTestProject\obj\Debug\net8.0\UnitTestProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ravi\Downloads\Programmation_Systeme-beta\Programmation_Systeme-beta\UnitTestProject\obj\Debug\net8.0\UnitTestProject.AssemblyInfoInputs.cache
+C:\Users\Ravi\Downloads\Programmation_Systeme-beta\Programmation_Systeme-beta\UnitTestProject\obj\Debug\net8.0\UnitTestProject.AssemblyInfo.cs
+C:\Users\Ravi\Downloads\Programmation_Systeme-beta\Programmation_Systeme-beta\UnitTestProject\obj\Debug\net8.0\UnitTestProject.csproj.CoreCompileInputs.cache
