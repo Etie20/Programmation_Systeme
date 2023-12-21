@@ -10,48 +10,80 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be016521-5ae5-4cc5-88f6-b8c26d576a56" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MCI_Common/MCI_Common.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimulationCuisine/SimulationCuisine.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimulationRestaurant/SimulationRestaurant.csproj" afterDir="false" />
+    <list default="true" id="be016521-5ae5-4cc5-88f6-b8c26d576a56" name="Changes" comment="second commit">
+      <change afterPath="$PROJECT_DIR$/MCI_Common/log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/ConfigurationTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/CookChiefTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/GroupTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/WasherTest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Programmation sytème/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Programmation sytème/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cuisine/Cuisine.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cuisine/Cuisine.csproj.user" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cuisine/Form1.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cuisine/Form1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cuisine/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cuisine/obj/Cuisine.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cuisine/obj/Cuisine.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cuisine/obj/Cuisine.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cuisine/obj/Debug/net8.0-windows/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cuisine/obj/Debug/net8.0-windows/Cuisine.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cuisine/obj/Debug/net8.0-windows/Cuisine.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cuisine/obj/Debug/net8.0-windows/Cuisine.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cuisine/obj/Debug/net8.0-windows/Cuisine.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cuisine/obj/Debug/net8.0-windows/Cuisine.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cuisine/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cuisine/obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cuisine/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cuisine/obj/rider.project.restore.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MCI_Common/Communication/Global_Settings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MCI_Common/Communication/Global_Settings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MCI_Common/bin/Debug/net6.0/MCI_Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MCI_Common/bin/Debug/net6.0/MCI_Common.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MCI_Common/bin/Debug/net6.0/MCI_Common.exe" beforeDir="false" afterPath="$PROJECT_DIR$/MCI_Common/bin/Debug/net6.0/MCI_Common.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MCI_Common/bin/Debug/net6.0/MCI_Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MCI_Common/bin/Debug/net6.0/MCI_Common.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MCI_Common/obj/Debug/net6.0/MCI_Common.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MCI_Common/obj/Debug/net6.0/MCI_Common.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MCI_Common/obj/Debug/net6.0/MCI_Common.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MCI_Common/obj/Debug/net6.0/MCI_Common.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MCI_Common/obj/Debug/net6.0/MCI_Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MCI_Common/obj/Debug/net6.0/MCI_Common.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MCI_Common/obj/Debug/net6.0/MCI_Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MCI_Common/obj/Debug/net6.0/MCI_Common.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MCI_Common/obj/Debug/net6.0/MCI_Common.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/MCI_Common/obj/Debug/net6.0/MCI_Common.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MCI_Common/obj/Debug/net6.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/MCI_Common/obj/Debug/net6.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MCI_Common/obj/Debug/net6.0/ref/MCI_Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MCI_Common/obj/Debug/net6.0/ref/MCI_Common.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MCI_Common/obj/Debug/net6.0/refint/MCI_Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MCI_Common/obj/Debug/net6.0/refint/MCI_Common.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Programmation sytème.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Programmation sytème.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant/Form1.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant/Form1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant/Restaurant.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant/Restaurant.csproj.user" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant/obj/Debug/net8.0-windows/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant/obj/Debug/net8.0-windows/Restaurant.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant/obj/Debug/net8.0-windows/Restaurant.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant/obj/Debug/net8.0-windows/Restaurant.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant/obj/Debug/net8.0-windows/Restaurant.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant/obj/Debug/net8.0-windows/Restaurant.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant/obj/Restaurant.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant/obj/Restaurant.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant/obj/Restaurant.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant/obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant/obj/rider.project.restore.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Room/bin/Debug/net6.0/MCI_Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Room/bin/Debug/net6.0/MCI_Common.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Room/bin/Debug/net6.0/MCI_Common.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Room/bin/Debug/net6.0/MCI_Common.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Room/bin/Debug/net6.0/MCI_Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Room/bin/Debug/net6.0/MCI_Common.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Room/bin/Debug/net6.0/Room.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Room/bin/Debug/net6.0/Room.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Room/bin/Debug/net6.0/Room.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Room/bin/Debug/net6.0/Room.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Room/bin/Debug/net6.0/Room.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Room/bin/Debug/net6.0/Room.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Room/obj/Debug/net6.0/Room.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Room/obj/Debug/net6.0/Room.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Room/obj/Debug/net6.0/Room.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Room/obj/Debug/net6.0/Room.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Room/obj/Debug/net6.0/Room.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Room/obj/Debug/net6.0/Room.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Room/obj/Debug/net6.0/Room.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Room/obj/Debug/net6.0/Room.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Room/obj/Debug/net6.0/Room.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Room/obj/Debug/net6.0/Room.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Room/obj/Debug/net6.0/Room.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Room/obj/Debug/net6.0/Room.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Room/obj/Debug/net6.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Room/obj/Debug/net6.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Room/obj/Debug/net6.0/ref/Room.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Room/obj/Debug/net6.0/ref/Room.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Room/obj/Debug/net6.0/refint/Room.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Room/obj/Debug/net6.0/refint/Room.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulationCuisine/Game1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationCuisine/Game1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulationCuisine/Model/CookChief.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationCuisine/Model/CookChief.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulationCuisine/Model/Cooker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationCuisine/Model/Cooker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulationCuisine/bin/Debug/net6.0/MCI_Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationCuisine/bin/Debug/net6.0/MCI_Common.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulationCuisine/bin/Debug/net6.0/MCI_Common.exe" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationCuisine/bin/Debug/net6.0/MCI_Common.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulationCuisine/bin/Debug/net6.0/MCI_Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationCuisine/bin/Debug/net6.0/MCI_Common.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulationCuisine/bin/Debug/net6.0/SimulationCuisine.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationCuisine/bin/Debug/net6.0/SimulationCuisine.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulationCuisine/bin/Debug/net6.0/SimulationCuisine.exe" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationCuisine/bin/Debug/net6.0/SimulationCuisine.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulationCuisine/bin/Debug/net6.0/SimulationCuisine.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationCuisine/bin/Debug/net6.0/SimulationCuisine.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulationCuisine/obj/Debug/net6.0/SimulationCuisine.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationCuisine/obj/Debug/net6.0/SimulationCuisine.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulationCuisine/obj/Debug/net6.0/SimulationCuisine.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationCuisine/obj/Debug/net6.0/SimulationCuisine.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulationCuisine/obj/Debug/net6.0/SimulationCuisine.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationCuisine/obj/Debug/net6.0/SimulationCuisine.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulationCuisine/obj/Debug/net6.0/SimulationCuisine.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationCuisine/obj/Debug/net6.0/SimulationCuisine.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulationCuisine/obj/Debug/net6.0/SimulationCuisine.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationCuisine/obj/Debug/net6.0/SimulationCuisine.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulationCuisine/obj/Debug/net6.0/SimulationCuisine.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationCuisine/obj/Debug/net6.0/SimulationCuisine.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulationCuisine/obj/Debug/net6.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationCuisine/obj/Debug/net6.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulationCuisine/obj/Debug/net6.0/ref/SimulationCuisine.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationCuisine/obj/Debug/net6.0/ref/SimulationCuisine.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulationCuisine/obj/Debug/net6.0/refint/SimulationCuisine.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationCuisine/obj/Debug/net6.0/refint/SimulationCuisine.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulationRestaurant/Model/Client/Client.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationRestaurant/Model/Client/Client.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulationRestaurant/Model/Client/ClientGroup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationRestaurant/Model/Client/ClientGroup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulationRestaurant/Model/Restaurant/Restaurant.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationRestaurant/Model/Restaurant/Restaurant.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulationRestaurant/bin/Debug/net6.0/MCI_Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationRestaurant/bin/Debug/net6.0/MCI_Common.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulationRestaurant/bin/Debug/net6.0/MCI_Common.exe" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationRestaurant/bin/Debug/net6.0/MCI_Common.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulationRestaurant/bin/Debug/net6.0/MCI_Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationRestaurant/bin/Debug/net6.0/MCI_Common.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulationRestaurant/bin/Debug/net6.0/Room.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationRestaurant/bin/Debug/net6.0/Room.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulationRestaurant/bin/Debug/net6.0/Room.exe" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationRestaurant/bin/Debug/net6.0/Room.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulationRestaurant/bin/Debug/net6.0/Room.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationRestaurant/bin/Debug/net6.0/Room.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulationRestaurant/bin/Debug/net6.0/SimulationRestaurant.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationRestaurant/bin/Debug/net6.0/SimulationRestaurant.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulationRestaurant/bin/Debug/net6.0/SimulationRestaurant.exe" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationRestaurant/bin/Debug/net6.0/SimulationRestaurant.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulationRestaurant/bin/Debug/net6.0/SimulationRestaurant.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationRestaurant/bin/Debug/net6.0/SimulationRestaurant.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulationRestaurant/obj/Debug/net6.0/SimulationRestaurant.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationRestaurant/obj/Debug/net6.0/SimulationRestaurant.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulationRestaurant/obj/Debug/net6.0/SimulationRestaurant.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationRestaurant/obj/Debug/net6.0/SimulationRestaurant.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulationRestaurant/obj/Debug/net6.0/SimulationRestaurant.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationRestaurant/obj/Debug/net6.0/SimulationRestaurant.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulationRestaurant/obj/Debug/net6.0/SimulationRestaurant.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationRestaurant/obj/Debug/net6.0/SimulationRestaurant.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulationRestaurant/obj/Debug/net6.0/SimulationRestaurant.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationRestaurant/obj/Debug/net6.0/SimulationRestaurant.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulationRestaurant/obj/Debug/net6.0/SimulationRestaurant.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationRestaurant/obj/Debug/net6.0/SimulationRestaurant.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulationRestaurant/obj/Debug/net6.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationRestaurant/obj/Debug/net6.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulationRestaurant/obj/Debug/net6.0/ref/SimulationRestaurant.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationRestaurant/obj/Debug/net6.0/ref/SimulationRestaurant.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulationRestaurant/obj/Debug/net6.0/refint/SimulationRestaurant.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SimulationRestaurant/obj/Debug/net6.0/refint/SimulationRestaurant.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,12 +99,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5956701c92ec47bc98145555cd08eafca23890/98/07a8cbed/Stopwatch.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SimulationRestaurant/Model/Behaviour/OrderAllOne.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SimulationRestaurant/Model/Behaviour/OrderBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SimulationRestaurant/Model/Behaviour/OrderTwoStep.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SimulationRestaurant/Model/Client/Client.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SimulationRestaurant/Model/Client/ClientGroup.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -82,26 +116,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;beta&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "beta",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\GENERAL STORES\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\GENERAL STORES\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\GENERAL STORES\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\GENERAL STORES\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache",
+      "C:\\Users\\GENERAL STORES\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache",
+      "C:\\Users\\GENERAL STORES\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Project.betaRestaurant">
     <configuration name="Cuisine" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -222,11 +258,56 @@
       <updated>1702983835930</updated>
       <workItem from="1702983837094" duration="2225000" />
       <workItem from="1702986151090" duration="4804000" />
-      <workItem from="1702991588339" duration="7084000" />
+      <workItem from="1702991588339" duration="43880000" />
+      <workItem from="1703091370200" duration="24284000" />
     </task>
+    <task id="LOCAL-00001" summary="second commit">
+      <option name="closed" value="true" />
+      <created>1702998965678</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702998965678</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/MCI_Common/RoomMaterials/PlateProcess.cs</url>
+          <line>49</line>
+          <properties documentPath="C:\Users\GENERAL STORES\RiderProjects\projetSystem\MCI_Common\RoomMaterials\PlateProcess.cs" initialLine="49" containingFunctionPresentation="Method 'GetAll'">
+            <startOffsets>
+              <option value="1327" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1328" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
