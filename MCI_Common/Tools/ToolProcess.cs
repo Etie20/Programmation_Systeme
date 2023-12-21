@@ -42,7 +42,7 @@ namespace MCI_Common.Tools
         {
             this.Datas.Clear();
             this.Request = this.MapTable.GetAll();
-            this.Datas = this.Bdd.getRows(this.Request, "Tools").Copy();
+            this.Datas = this.Bdd.getRows(this.Request, "Tools");
 
             List<Tool> results = new List<Tool>();
 
@@ -66,6 +66,7 @@ namespace MCI_Common.Tools
 
             foreach (DataRow item in this.Datas.Tables["Tools"].Rows)
             {
+                Console.WriteLine(item[1]);
                 Tool tool = this.CreateTool(item);
                 results.Add(tool);
             }

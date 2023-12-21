@@ -23,7 +23,8 @@ namespace MCI_Common.Tools
 
         public string GetAllByStep(int id)
         {
-            return "SELECT * FROM EtapesUstensiles WHERE Etapesid = "+id+";";
+            return "SELECT Ustensile.* FROM Ustensile JOIN EtapesUstensiles ON Ustensile.id = EtapesUstensiles.Ustensilesid JOIN Etape ON EtapesUstensiles.Etapesid = Etape.id WHERE Etape.id = " + id + ";";
+            //return "SELECT * FROM EtapesUstensiles WHERE Etapesid = "+id+";";
         }
 
 

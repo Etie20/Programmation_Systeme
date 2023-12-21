@@ -31,7 +31,8 @@ namespace MCI_Common.Ingredients
        
         public string GetAllByStep(int id)
         {
-            return "SELECT * FROM DenreeParEtape WHERE Etapeid = " + id + ";";
+            return "SELECT Denree.* FROM Denree JOIN DenreeParEtape ON Denree.id = DenreeParEtape.Denreeid JOIN Etape ON DenreeParEtape.Etapeid = Etape.id WHERE Etape.id = "+id+";";
+            //return "SELECT * FROM DenreeParEtape WHERE Etapeid = " + id + ";";
         }
 
         public string AddStock()

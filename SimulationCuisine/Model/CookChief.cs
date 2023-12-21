@@ -74,7 +74,6 @@ namespace SimulationKitchen.Model
                 Console.WriteLine("Starting prepare order n° " + order.receiveOrder.Id);
                 foreach (var item in order.receiveOrder.Dishes)
                 {
-                    Console.WriteLine(item.Recipe.Name);
                     ThreadPool.QueueUserWorkItem(state => PrepareDish(item));
                 }
             }   
@@ -86,11 +85,7 @@ namespace SimulationKitchen.Model
         
             foreach (var step in dish.Recipe.Steps)
             {
-                Console.WriteLine("prepare a dish please");
-                Console.WriteLine(step);
-                Console.WriteLine(step.Order);
-                Console.WriteLine("final");
-                Console.WriteLine(dish.Recipe.Steps.Count);
+    
                 Cooker cooker;  
                 { cooker = this.ElectCooker(); } while (cooker == null) ;
 

@@ -57,12 +57,7 @@ namespace MCI_Common.Devices
 
             return results;
         }
-
-        /// <summary>
-        /// Get a specific devices list for a step
-        /// </summary>
-        /// <param name="id">id of the step</param>
-        /// <returns>A specific devices list</returns>
+        
         public List<Device> ListAllByStep(int id)
         {
             this.Datas.Clear();

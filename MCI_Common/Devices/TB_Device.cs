@@ -31,7 +31,8 @@ namespace MCI_Common.Devices
         
         public string GetAllByStep(int id)
         {
-            return "SELECT * FROM Etape_Appareil WHERE Etapeid = " + id + ";";
+            return "SELECT Appareil.* FROM Appareil JOIN Etape_Appareil ON Appareil.id = Etape_Appareil.Appareilid JOIN Etape ON Etape_Appareil.Etapeid = Etape.id WHERE Etape.id = "+id+";";
+            //return "SELECT * FROM Etape_Appareil WHERE Etapeid = " + id + ";";
         }
 
     }

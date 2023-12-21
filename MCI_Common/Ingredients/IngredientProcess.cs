@@ -39,11 +39,6 @@ namespace MCI_Common.Ingredients
             this.Bdd = DAO.getInstance();
         }
 
-        /// <summary>
-        /// Build an ingredient from datarow
-        /// </summary>
-        /// <param name="row">DataRow from dataset</param>
-        /// <returns>an Ingredient</returns>
         private Ingredient CreateIngredient(DataRow row)
         {
             Ingredient ingredient = new Ingredient();
@@ -65,11 +60,7 @@ namespace MCI_Common.Ingredients
             }
             return ingredient;
         }
-
-        /// <summary>
-        /// List all tools available in database
-        /// </summary>
-        /// <returns>A list of all tools</returns>
+        
         public List<Ingredient> ListAll()
         {
             this.Datas.Clear();
@@ -87,11 +78,6 @@ namespace MCI_Common.Ingredients
             return results;
         }
 
-        /// <summary>
-        /// Get a specific ingredients list for a step
-        /// </summary>
-        /// <param name="id">id of the step</param>
-        /// <returns>A specific ingredients list</returns>
         public List<Ingredient> ListAllByStep(int id)
         {
             this.Datas.Clear();
@@ -109,11 +95,7 @@ namespace MCI_Common.Ingredients
             return results;
         }
 
-        /// <summary>
-        /// Get a specific ingredient
-        /// </summary>
-        /// <param name="id">id of the ingredient to get</param>
-        /// <returns>A specific ingredient</returns>
+       
         public Ingredient GetOne(int id)
         {
             this.Datas.Clear();
@@ -127,11 +109,6 @@ namespace MCI_Common.Ingredients
             return ingredient;
         }
 
-        /// <summary>
-        /// Get a specific ingredient
-        /// </summary>
-        /// <param name="name">Name of the ingredient to get</param>
-        /// <returns>A specific ingredient</returns>
         public Ingredient GetOne(string name)
         {
             this.Datas.Clear();

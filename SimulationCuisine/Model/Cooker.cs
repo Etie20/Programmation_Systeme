@@ -17,24 +17,15 @@ namespace SimulationKitchen.Model
 {
     public class Cooker : Movable
     {
-        /// <summary>
-        /// Identifier of the cooker
-        /// </summary>
+
         public int Id { get; set; }
 
-        /// <summary>
-        /// Availability of the cooker
-        /// </summary>
-        public bool IsAvailable { get; set; }
 
-        /// <summary>
-        /// Tools manager to lease tools
-        /// </summary>
+        public bool IsAvailable { get; set; }
+        
         public ToolsManager ToolsStorage { get; set; }
 
-        /// <summary>
-        /// Devices manager to lease devices
-        /// </summary>
+
         public DevicesManager DevicesStorage { get; set; }
 
         public Washer WasherEngine { get; set; }
@@ -42,11 +33,7 @@ namespace SimulationKitchen.Model
         public Oven OvenCook { get; private set; }
 
         public event EventHandler OrderReady;
-
-        /// <summary>
-        /// Instantiate a cooker
-        /// </summary>
-        /// <param name="toolsStorage"></param>
+        
         public Cooker(int id, Washer washer, Oven oven, Position position)
         {
             this.Id = id;
@@ -62,11 +49,15 @@ namespace SimulationKitchen.Model
         public void PrepareStep(Step step, Dish dish = null)
         {
             LogWriter.GetInstance().Write("Cooker " +this.Id+" start step "+step.Order+" : " + step.Description);
+            Console.WriteLine("Cooker " +this.Id+" start step "+step.Order+" : " + step.Description);
             this.IsAvailable = false;
-            if (!this.LeaseNeededTools(step.Tools)) LogWriter.GetInstance().Write("Ustensiles insuffisants pour réaliser la tâche");
-            else if (!this.LeaseNeededDevices(step.Devices)) LogWriter.GetInstance().Write("Appareils insuffisants pour réaliser la tâche");
-            else
-            {
+            Console.WriteLine("tool and device");
+            Console.WriteLine(step.Tools.Count);
+            Console.WriteLine(step.Devices.Count);
+            // if (!this.LeaseNeededTools(step.Tools)) LogWriter.GetInstance().Write("Ustensiles insuffisants pour réaliser la tâche");
+            // else if (!this.LeaseNeededDevices(step.Devices)) LogWriter.GetInstance().Write("Appareils insuffisants pour réaliser la tâche");
+            // else
+            // {
                 LogWriter.GetInstance().Write("Cooker " + this.Id + " working ...");
                 Thread.Sleep((int) Math.Round(step.Time*60000)/60);
                 LogWriter.GetInstance().Write("Cooker " + this.Id + " step finished");
@@ -86,16 +77,12 @@ namespace SimulationKitchen.Model
                 }
 
                 this.IsAvailable = true;
-            }
+            //}
         }
 
-        /// <summary>
-        /// Lease the differents tools needed for a specific step
-        /// </summary>
-        /// <param name="tools">Tools to lease</param>
-        /// <returns>True if the lease is accept else false</returns>
         private bool LeaseNeededTools(List<Tool> tools)
         {
+            Console.WriteLine("commencer a lacher ustensile");
             foreach (var item in tools)
             {
                 Stopwatch s = new Stopwatch();
@@ -110,16 +97,14 @@ namespace SimulationKitchen.Model
                 }
                 s.Stop();
             }
+            Console.WriteLine("FIN1");
             return tools.All(tool => tool.IsAvailable);
         }
-
-        /// <summary>
-        /// Lease the differents devices needed for a specific step
-        /// </summary>
-        /// <param name="tools">Devices to lease</param>
-        /// <returns>True if the lease is accept else false</returns>
+        
         private bool LeaseNeededDevices(List<Device> devices)
         {
+            Console.WriteLine("commencer a lacher Appareil");
+
             foreach (var item in devices)
             {
                 Stopwatch s = new Stopwatch();
@@ -134,6 +119,7 @@ namespace SimulationKitchen.Model
                 }
                 s.Stop();
             }
+            Console.WriteLine("FIN2");
             return devices.All(device => device.IsAvailable);
         }
 
